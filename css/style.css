@@ -1,0 +1,21 @@
+/*Inserto un selector universal para indicar que todos los elementos en mi hoja de estilo css tengan un margen de 7 píxeles*/
+*{
+  margin: 7px;
+}
+/*Le doy una altura de 100 píxeles a mis bloques div */
+div {
+  height: 100px;
+}
+/*Por medio de un selector de clase llamo a mis bloques orange para asignarles un color de fondo, un ancho total de 200 píxeles y también inserto un elemento "box-sizing: border-box" para que el padding y border de ese elemento no incrementan su ancho */
+.orange{
+  background-color: #FFBE02;
+  width: 200px;
+  box-sizing: border-box;
+}
+/*Por medio de un selector de clase llamo a mi bloque black. Le aisgno un fondo negro, fuente de color blanco, un ancho total de 200 píxeles y por último un elemento "box-sizing: border-box" para que el padding y border de ese elemento no incrementan su ancho*/
+.black{
+  background-color: black;
+  color: white;
+  width: 200px;
+  box-sizing: border-box;
+}
